@@ -6,7 +6,7 @@ using API.Dtos;
 using AutoMapper;
 using Core.Entities;
 
-namespace API.Helper
+namespace API.Helpers
 {
     public class MappingProfiles : Profile
     {
