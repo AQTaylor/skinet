@@ -9,10 +9,10 @@ import { ThrowStmt } from '@angular/compiler';
 @Component({
   selector: 'app-shop',
   templateUrl: './shop.component.html',
-  styleUrls: ['./shop.component.css']
+  styleUrls: ['./shop.component.scss']
 })
 export class ShopComponent implements OnInit {
-  @ViewChild('search', {static: true}) searchTerm: ElementRef;
+  @ViewChild('search', {static: false}) searchTerm: ElementRef;
   products: IProduct[];
   brands: IBrand[];
   types: IType[];
